@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bovixo</title>
+<style>
+:root{--bg:#faf7f0;--card:#fff;--ink:#2a2112;--mute:#6b5d45;--acc:#a15c07;--line:#eadfc8;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b1020;--card:#141b33;--ink:#eef0fa;--mute:#a9b0d0;--acc:#f5b942;--line:#252e52}}
+:root[data-theme="dark"]{--bg:#0b1020;--card:#141b33;--ink:#eef0fa;--mute:#a9b0d0;--acc:#f5b942;--line:#252e52}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 Georgia,"Times New Roman",serif}
+.w{max-width:1000px;margin:0 auto;padding:0 22px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0;font:600 15px system-ui,sans-serif}
+.logo{font:700 26px Georgia,serif;color:var(--acc)}
+nav a{color:var(--mute);text-decoration:none;margin-left:18px}
+.hero{padding:70px 0 50px;text-align:center}
+.hero h1{font-size:clamp(34px,6vw,58px);line-height:1.15;margin:0 0 18px}
+.hero p{max-width:660px;margin:0 auto 20px;color:var(--mute)}
+.btn{display:inline-block;background:var(--acc);color:var(--bg);padding:13px 28px;border-radius:8px;text-decoration:none;font:600 16px system-ui,sans-serif;margin:4px}
+.btn.o{background:transparent;color:var(--acc);border:2px solid var(--acc)}
+h2{font-size:30px;margin:0 0 8px}
+.sub{color:var(--mute);margin:0 0 28px}
+section{padding:44px 0;border-top:1px solid var(--line)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+.c,.art,.step,details{background:var(--card);border:1px solid var(--line);border-radius:12px}
+.c{padding:22px}.c h3{margin:0 0 6px;font-size:19px}.c p{margin:0;color:var(--mute);font-size:15.5px}
+.n,.tag{font:700 12px system-ui,sans-serif;color:var(--acc);letter-spacing:1px;text-transform:uppercase;display:block;margin-bottom:6px}
+.steps{counter-reset:s;display:grid;gap:14px}
+.step{display:flex;gap:16px;padding:20px}
+.step:before{counter-increment:s;content:counter(s);flex:none;width:36px;height:36px;border-radius:50%;background:var(--acc);color:var(--bg);display:grid;place-items:center;font:700 16px system-ui,sans-serif}
+.step h3{margin:0 0 4px;font-size:18px}.step p{margin:0;color:var(--mute);font-size:15.5px}
+.art{padding:26px;margin-bottom:16px;border-left:4px solid var(--acc)}
+.art h3{margin:4px 0 10px;font-size:22px}.art p{margin:0 0 10px;color:var(--mute)}
+details{padding:16px 20px;margin-bottom:10px}
+summary{cursor:pointer;font-weight:700}details p{margin:10px 0 0;color:var(--mute);font-size:16px}
+dl{margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px 28px}
+dt{font-weight:700;color:var(--acc)}dd{margin:0 0 6px;color:var(--mute);font-size:15.5px}
+.note{text-align:center;color:var(--mute)}.note b{color:var(--ink)}
+footer{padding:34px 0;border-top:1px solid var(--line);text-align:center;color:var(--mute);font:14px system-ui,sans-serif}
+</style>
+</head>
+<body>
+<div class="w">
+<nav><span class="logo">Bovixo</span><div><a href="#features">Overview</a><a href="#articles">Reading room</a><a href="#glossary">Glossary</a></div></nav>
+
+<header class="hero">
+<h1>Experience excellence without compromise.</h1>
+<p>Bovixo is an Online Adventures Platform for reading and learning about space: the Sun, the Moon, the planets and the stars beyond them.</p>
+<p style="font-weight:700;color:var(--acc)">Click. Discover. Enjoy.</p>
+<a class="btn" href="#articles">Begin Your Journey</a>
+</header>
+
+<section id="about">
+<h2>About Bovixo</h2>
+<p class="sub">Discover the perfect blend of quality and value.</p>
+<p>We are a well-respected voice for clear, careful writing about astronomy and the night sky. Every lesson is short, accurate and written for readers of any age. <b>Anytime, Anywhere, Anything</b> you wonder about the universe, you can start with a single page.</p>
+</section>
+
+<section id="features">
+<h2>Why Bovixo</h2>
+<p class="sub">Twelve ideas that shape how we write and teach.</p>
+<div class="grid">
+<div class="c"><span class="n">01</span><h3>Simple Signup, Instant Access</h3><p>Join the reading list in moments and open any lesson straight away.</p></div>
+<div class="c"><span class="n">02</span><h3>Designed for Everyday Fun</h3><p>Star-spotting games and short quizzes make astronomy enjoyable at any age.</p></div>
+<div class="c"><span class="n">03</span><h3>Enjoy Anytime, Anywhere</h3><p>Short readings fit a commute, a break or an evening under the open sky.</p></div>
+<div class="c"><span class="n">04</span><h3>Entertainment Without Limits</h3><p>From our own Moon to distant galaxies, no corner of space is off the reading list.</p></div>
+<div class="c"><span class="n">05</span><h3>Smooth Gameplay &amp; Service</h3><p>Our sky-map games follow clear rules, and help is easy to find when you need it.</p></div>
+<div class="c"><span class="n">06</span><h3>Premium Feel, Smooth Play</h3><p>Clean charts and tidy pages make learning feel effortless.</p></div>
+<div class="c"><span class="n">07</span><h3>Bring Everyone Together</h3><p>Students, parents and teachers can read the same lessons and share the same words.</p></div>
+<div class="c"><span class="n">08</span><h3>Everything organized.</h3><p>Lessons are grouped by object, topic and length, so you can find a starting point quickly.</p></div>
+<div class="c"><span class="n">09</span><h3>Experience Quality That Speaks for Itself.</h3><p>Each article is written in plain language and checked against reliable sources.</p></div>
+<div class="c"><span class="n">10</span><h3>Safe &amp; Secure</h3><p>We explain how to watch the sky safely, especially when the Sun is involved.</p></div>
+<div class="c"><span class="n">11</span><h3>Incredible Fun And More</h3><p>Learning about planets, comets and eclipses is full of surprises.</p></div>
+<div class="c"><span class="n">12</span><h3>Breathtaking Experience</h3><p>Our lessons describe cosmic sights, from the Milky Way to meteor showers, in vivid detail.</p></div>
+</div>
+<p class="note" style="margin-top:28px"><b>Smooth Gameplay Experience</b> in a sky quiz starts with simple, fair rules.</p>
+</section>
+
+<section id="together">
+<h2>Bring Everyone Together</h2>
+<p class="sub">Bovixo is written so that learners of every age can read along.</p>
+<div class="grid">
+<div class="c"><h3>For students</h3><p>Clear explanations of orbits, gravity and light that support school science.</p></div>
+<div class="c"><h3>For families</h3><p>Facts and stories to read together before a night of stargazing.</p></div>
+<div class="c"><h3>For teachers</h3><p>Ready-to-use summaries of core astronomy ideas for any classroom.</p></div>
+</div>
+</section>
+
+<section id="wonder">
+<h2>Creating a Magical Atmosphere</h2>
+<p class="sub">Some sights fill us with wonder, and understanding them makes the wonder greater.</p>
+<div class="grid">
+<div class="c"><h3>The Milky Way</h3><p>Our home galaxy contains hundreds of billions of stars. From a dark place it appears as a pale band across the sky.</p></div>
+<div class="c"><h3>Meteor showers</h3><p>Shooting stars are tiny bits of dust and rock burning up as they enter Earth's atmosphere at high speed.</p></div>
+<div class="c"><h3>Total solar eclipses</h3><p>When the Moon passes exactly between the Sun and Earth, it can cover the Sun's bright disc completely for a few minutes.</p></div>
+</div>
+</section>
+
+<section id="steps">
+<h2>How to start stargazing</h2>
+<p class="sub">New chapter of luck begins now, and so does careful preparation. Four steps to begin.</p>
+<div class="steps">
+<div class="step"><div><h3>Find a dark place</h3><p>Move away from street lights and bright buildings. Darker skies show many more stars.</p></div></div>
+<div class="step"><div><h3>Let your eyes adjust</h3><p>Give your eyes about twenty to thirty minutes to adapt to the dark, and use a dim red light if you need to read a map.</p></div></div>
+<div class="step"><div><h3>Learn a few constellations</h3><p>Start with easy patterns such as the Big Dipper or Orion, using a printed or app-based star chart.</p></div></div>
+<div class="step"><div><h3>Try binoculars</h3><p>Even a simple pair shows the Moon's craters and the four largest moons of Jupiter.</p></div></div>
+</div>
+</section>
+
+<section id="articles">
+<h2>The Bovixo reading room</h2>
+<p class="sub">Longer pieces for those who like to understand the details.</p>
+<div class="art"><span class="tag">Article · 6 min</span><h3>How the Sun shines</h3><p>The Sun is powered by nuclear fusion. In its core, extreme heat and pressure force hydrogen atoms together to form helium, and a small amount of mass is turned into energy in the process.</p><p>The Sun is about 4.6 billion years old. Its light takes roughly eight minutes and twenty seconds to travel the 150 million kilometres to Earth.</p></div>
+<div class="art"><span class="tag">Article · 5 min</span><h3>Why the Moon has phases</h3><p>The Moon does not make its own light. We see the part of it that is lit by the Sun, and as the Moon orbits Earth, the angle between the Sun, the Moon and us changes. That changing view is what we call phases.</p><p>A full cycle from one new moon to the next takes about 29.5 days. Phases are not caused by Earth's shadow; that happens only during a lunar eclipse.</p></div>
+<div class="art"><span class="tag">Article · 5 min</span><h3>The hottest planet is not the closest</h3><p>Mercury is the closest planet to the Sun, yet Venus is hotter. Its thick atmosphere of carbon dioxide traps heat in a runaway greenhouse effect, keeping the surface at around 465 degrees Celsius.</p><p>Our Solar System has eight planets, and Jupiter is the largest of them.</p></div>
+<div class="art"><span class="tag">Article · 5 min</span><h3>What is a light-year?</h3><p>A light-year is a measure of distance, not time. It is the distance light travels in one year, which is about 9.46 trillion kilometres.</p><p>The nearest star to the Sun, Proxima Centauri, is about 4.2 light-years away. That means the light we see from it left the star a little over four years ago.</p></div>
+<div class="art"><span class="tag">Article · 5 min</span><h3>Safe &amp; Secure: watching the sky</h3><p>Never look directly at the Sun, not even during a partial eclipse, unless you use eyewear made for solar viewing that meets the ISO 12312-2 standard. Ordinary sunglasses are not enough.</p><p>For night observing, dress warmly, tell someone where you are going and take a small torch with a red light.</p></div>
+</section>
+
+<section id="glossary">
+<h2>Astronomy terms, explained</h2>
+<p class="sub">Words you will meet often, in simple language.</p>
+<dl>
+<dt>Orbit</dt><dd>The curved path of one object around another, held by gravity.</dd>
+<dt>Light-year</dt><dd>The distance light travels in one year, about 9.46 trillion kilometres.</dd>
+<dt>Constellation</dt><dd>A pattern of stars that people have named since ancient times.</dd>
+<dt>Galaxy</dt><dd>A huge system of stars, gas and dust held together by gravity.</dd>
+<dt>Exoplanet</dt><dd>A planet that orbits a star other than the Sun.</dd>
+<dt>Eclipse</dt><dd>An event in which one object blocks light from another or passes into its shadow.</dd>
+</dl>
+</section>
+
+<section id="faq">
+<h2>Questions, answered</h2>
+<p class="sub">Short answers to common questions.</p>
+<details><summary>Do I need any background to read Bovixo?</summary><p>No. Every lesson starts from the basics and uses plain language.</p></details>
+<details><summary>How long are the readings?</summary><p>Most take between four and six minutes.</p></details>
+<details><summary>Do I need a telescope?</summary><p>No. Many wonders can be seen with the naked eye, and binoculars are a good next step.</p></details>
+<details><summary>Are the facts in the articles reliable?</summary><p>Yes. The articles describe well-established facts and avoid popular myths.</p></details>
+</section>
+
+<section style="text-align:center">
+<h2>Your Next Big Upgrade Awaits.</h2>
+<p class="sub">Start Today – Thank Yourself Tomorrow.</p>
+<p class="note"><b>Try it out today and you’ll never Disappoint</b></p>
+<p class="note"><b>Act fast – limited time, unlimited value.</b><br>Shop now and enjoy instant rewards.</p>
+<p style="margin-top:24px"><a class="btn" href="#features">Begin Your Journey</a><a class="btn o" href="#together">Join the Movement.</a></p>
+<p class="note" style="margin-top:22px">Click. Discover. Enjoy.</p>
+</section>
+
+<footer>© 2026 Bovixo · Experience excellence without compromise.</footer>
+</div>
+</body>
+</html>
